@@ -742,6 +742,7 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
     width:100%;
+    height:auto;
 }
 
 .portfolio-row {
@@ -819,7 +820,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-min.jpg");
 }
 
 .bg-presentation {
