@@ -340,8 +340,10 @@ a:hover {
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    
 }
 
+    
 .navbar-toggle:hover {
     background: transparent!important;
 }
