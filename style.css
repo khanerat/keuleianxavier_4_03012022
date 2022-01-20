@@ -12,7 +12,12 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+a footer{
+    
+        padding:0 0 10px 0;
+    
+    
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -1044,8 +1049,5 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
-li{
-    padding:0 0 10px 0;
 }
 
