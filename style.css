@@ -1045,5 +1045,7 @@ h4 {
         text-align: center;
     }
 }
-
+li{
+    padding:0 0 10px 0;
+}
 
