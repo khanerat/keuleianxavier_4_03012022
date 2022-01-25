@@ -471,7 +471,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 button {
@@ -811,6 +811,11 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
+.btn-atomic-tangerine:focus {
+    background: #fcac1b !important;
+    color: #313030 !important;
+    border: solid 2px white;
+  }
 
 .ltc-white {
     color: #FFFFFF!important;
