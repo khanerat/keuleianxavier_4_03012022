@@ -3,10 +3,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    /*
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    */
+ 
 }
 
 a,
@@ -39,11 +36,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    /*
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    */
     background-size: cover;
     position: relative;
 }
@@ -75,11 +67,7 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    /*
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    */
+  
     background-size: auto!important;
 }
 
@@ -382,9 +370,7 @@ a:hover {
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        /*
-        -webkit-transform: translateY(-50%);
-        */
+        
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -567,16 +553,11 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /*
-    -webkit-transform: translateY(-50%);
-    */
+    
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    /*
-    -webkit-animation-fill-mode: none;
-    */
     animation-fill-mode: none;
 }
 
@@ -942,10 +923,7 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        /*
-        -webkit-transform: none;
-        -ms-transform: none;
-        */
+       
     }
     .nav > li {
         margin-top: 0;
@@ -982,7 +960,6 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        /*-webkit-box-shadow: none;*/
         box-shadow: none;
     }
     .navbar-brand img {
