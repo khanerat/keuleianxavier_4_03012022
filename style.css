@@ -120,6 +120,9 @@ a [data-lightbox]:focus-visible img{
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
+.d-bloc button:focus{
+    color: rgba(255, 255, 255, .9);
+}
 
 .d-bloc .icon-round,
 .d-bloc .icon-square,
