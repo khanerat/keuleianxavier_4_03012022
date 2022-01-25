@@ -22,7 +22,7 @@ a:hover {
     cursor: pointer;
 }
 
-a [data-lightbox]:focus img{
+a [data-lightbox]:focus-visible img{
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
