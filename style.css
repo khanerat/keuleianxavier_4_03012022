@@ -22,13 +22,7 @@ a:hover {
     cursor: pointer;
 }
 
-a [data-lightbox]:focus-visible img{
-    opacity: 0.6;
-    -webkit-animation-fill-mode: none;
-    animation-fill-mode: none;
-    border: black solid 5px;
 
-}
 .focusT:focus{
     border-color: #313030;
     outline: 0;
@@ -576,7 +570,16 @@ a[data-lightbox]:hover::before {
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
+    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
+}
+
+a[data-lightbox]:focus img{
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    border: black solid 5px;
+
 }
 
 #lightbox-modal {
