@@ -578,7 +578,7 @@ a[data-lightbox]:focus img{
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
-    border: black solid 5px;
+    border: #fcac1b solid 5px;
 
 }
 
